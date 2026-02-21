@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Terms of Service</title>
+</head>
+<body>
+    <h1>Информация из Terms_of_Service.txt</h1>
+    <pre id="content">Загрузка...</pre>
+    <p><a href="index.html">Прочесть Privacy Policy</a></p>
+
+    <script>
+        fetch('Terms_of_Service.txt')
+            .then(response => response.text())
+            .then(text => document.getElementById('content').textContent = text)
+            .catch(err => document.getElementById('content').textContent = 'Ошибка загрузки файла.');
+    </script>
+</body>
+</html>
