@@ -1,0 +1,129 @@
+Terms of Service for Armaga Antivirus
+
+Effective Date: November 24, 2025
+
+These Terms of Service ("Terms," "Agreement") govern your access to and use of the Armaga Antivirus mobile application ("the App," "Service," "we," "us," or "our") for Android devices. The App is developed and operated by Individual Entrepreneur Barkov Nikita Sergeevich (ИП Барков Никита Сергеевич). By downloading, installing, accessing, or using the App, you ("User," "you," or "your") agree to be bound by these Terms. If you do not agree to these Terms, you must not download, install, or use the App.
+
+We reserve the right to modify these Terms at any time. We will notify you of material changes via in-app notifications or email (if provided). Your continued use of the App after such changes constitutes your acceptance of the updated Terms.
+
+1. Description of the Service
+
+Armaga Antivirus is a mobile antivirus application designed for Android devices (version 6.0 and above) that provides comprehensive protection against malware, viruses, and other security threats. Key features include:
+
+- Scanning Options: Quick, full, custom, and automatic scheduled scans of installed applications and device files.
+- Threat Detection Methods: Signature-based analysis, heuristic analysis, integration with Google Play Protect, and AI-driven detection.
+- Real-Time Protection: Monitoring of app installations, network activity, overlay attacks, and background protection.
+- App Management: Viewing, filtering, and removing suspicious applications, including permission details.
+- Quarantine: Isolation, storage, restoration, and automatic cleanup of suspicious files.
+- Scan History: Detailed records, statistics, filtering, and export capabilities.
+- AI Assistant: Chat-bot for security advice, settings management, and device protection tips.
+- Settings and Customization: Toggle real-time protection, schedule scans, enable auto-updates for virus signatures, manage notifications, and select languages (English or Russian) and themes.
+- Monetization Options: A free version with ads (via Google AdMob) and a Premium subscription for ad-free experience, priority support, advanced statistics, and enhanced AI features.
+
+The App is provided on an "as is" and "as available" basis. While we strive to maintain high standards, we do not guarantee 100% detection or removal of all threats, as new malware evolves rapidly. The App integrates with third-party services like Google Firebase, AdMob, and Play Protect, which are subject to their own terms.
+
+2. User Rights and Obligations
+
+2.1 Rights Granted to You
+Subject to your compliance with these Terms, we grant you a limited, non-exclusive, non-transferable, revocable license to download, install, and use the App on your personal Android device(s) for non-commercial purposes. This license includes access to updates, virus signature databases, and Premium features if subscribed.
+
+You may:
+- Use the App's features for personal device security.
+- Export scan statistics for your records.
+- Sync settings via Google authentication (optional).
+
+2.2 Your Obligations
+You agree to:
+- Use the App only for lawful purposes and in compliance with all applicable laws and regulations.
+- Provide accurate information if signing in with Google.
+- Maintain the security of your device and any linked accounts.
+- Regularly update the App and virus signatures to ensure optimal protection.
+- Back up your data before using features like quarantine or app removal, as you are solely responsible for any data loss.
+- Not interfere with the App's operation, including disabling required permissions.
+
+You must not:
+- Use the App for illegal activities, such as hacking, distributing malware, or violating others' privacy.
+- Reverse engineer, decompile, disassemble, or modify the App (except as permitted by law).
+- Distribute, sublicense, rent, or sell the App or its components.
+- Use automated tools (e.g., bots) to access or scrape the App.
+- Upload or transmit harmful code, viruses, or unauthorized content.
+- Impersonate others or misuse the AI assistant for deceptive purposes.
+- Circumvent ads in the free version or attempt to access Premium features without subscription.
+
+Failure to comply may result in suspension or termination of your access.
+
+3. Premium Subscription
+
+The App offers a Premium version via in-app subscription, managed through the Google Play Store.
+
+- Features: Includes all free version functionalities plus ad removal, priority support, expanded statistics, and advanced AI assistant capabilities.
+- Billing: Subscriptions are auto-renewing and charged to your Google Play account. Prices and terms are set by Google Play; we do not control pricing details.
+- Cancellation: You may cancel your subscription at any time through your Google Play account settings. Cancellation takes effect at the end of the current billing period; no refunds for partial periods.
+- Trials and Promotions: If offered, free trials convert to paid subscriptions unless canceled before the trial ends.
+- Changes: We may modify Premium features or pricing with notice; continued use after changes implies acceptance.
+
+Subscriptions are non-transferable and non-refundable, except as required by law.
+
+4. Rules of Use
+
+- Age Requirement: You must be at least 13 years old to use the App. If under 18, you must have parental consent.
+- Account Security: If using Google sign-in, you are responsible for securing your Google account.
+- Content Ownership: You retain ownership of any data you input (e.g., custom scan preferences), but grant us a license to use it for App operation.
+- Intellectual Property: The App, including its code, design, trademarks (e.g., "Armaga Antivirus"), and content, is owned by us or our licensors. You may not copy or use it without permission.
+- Feedback: Any suggestions or feedback you provide may be used by us without compensation.
+- Prohibited Conduct: In addition to Section 2.2, you must not harass others via the App, spam, or engage in activities that could harm our reputation.
+
+We may monitor usage to enforce these rules but are not obligated to do so.
+
+5. Limitations of Liability
+
+To the fullest extent permitted by law:
+- The App is provided "as is" without warranties of any kind, express or implied, including merchantability, fitness for a particular purpose, or non-infringement.
+- We do not warrant that the App will be uninterrupted, error-free, or completely secure against all threats.
+- We are not liable for any indirect, incidental, consequential, special, or punitive damages arising from your use of the App, including data loss, device damage, or security breaches.
+- Our total liability shall not exceed the amount you paid for the Premium subscription in the last 12 months (or $0 for free users).
+- You are responsible for backing up your data; we are not liable for any loss resulting from App features like scans or quarantines.
+- Third-party services (e.g., Google) are not under our control, and we disclaim liability for their actions.
+
+These limitations apply even if we have been advised of the possibility of such damages.
+
+6. Termination of Use
+
+We may suspend or terminate your access to the App at any time, without notice, for reasons including:
+- Violation of these Terms.
+- Suspected illegal activity.
+- Technical issues or maintenance.
+- Discontinuation of the App.
+
+Upon termination:
+- Your license ends immediately.
+- You must uninstall the App.
+- Any Premium subscription may be canceled without refund.
+
+You may terminate by uninstalling the App and canceling any subscription.
+
+Provisions that survive termination include Sections 3 (for billing), 5, 7, and 8.
+
+7. Governing Law and Dispute Resolution
+
+These Terms are governed by the laws of the Russian Federation, without regard to conflict of laws principles. Any disputes arising from or relating to these Terms or the App shall be resolved exclusively in the courts of the Russian Federation.
+
+You agree to waive any right to class action or jury trial. We encourage informal resolution first via contact (see Section 8).
+
+8. Contact Information
+
+For questions, support, or notices regarding these Terms:
+- Email: tidesluck@icloud.com
+- Developer: Individual Entrepreneur Barkov Nikita Sergeevich (ИП Барков Никита Сергеевич)
+
+We respond within 24-48 hours, in English or Russian.
+
+9. Miscellaneous
+
+- Severability: If any provision is invalid, the remainder remains in effect.
+- No Waiver: Failure to enforce a right does not waive it.
+- Entire Agreement: These Terms constitute the full agreement, superseding prior versions.
+- Assignment: We may assign these Terms; you may not without our consent.
+- Force Majeure: We are not liable for delays due to events beyond our control (e.g., natural disasters).
+
+By using the App, you acknowledge that you have read, understood, and agree to these Terms.
