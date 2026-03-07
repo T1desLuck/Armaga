@@ -1,154 +1,699 @@
-Privacy Policy for Armaga Antivirus
+PRIVACY POLICY OF THE MOBILE APPLICATION "ARMAGA: ANTIVIRUS & SECURITY"
 
-Effective Date: November 24, 2025
+━━━━━━━━━━━━━
 
-This Privacy Policy describes how Armaga Antivirus ("the App," "we," "us," or "our") collects, uses, discloses, and protects your information when you use our mobile application for Android devices. The App is developed and operated by Individual Entrepreneur Barkov Nikita Sergeevich (ИП Барков Никита Сергеевич). We are committed to protecting your privacy and ensuring the security of your data. By downloading, installing, or using the App, you agree to the practices described in this Privacy Policy.
+Effective Date: March 7, 2026
+Last Updated: March 7, 2026
+Document Version: 1.0.433
+Original Language: English
 
-If you do not agree with this Privacy Policy, please do not use the App.
+━━━━━━━━━━━━━
 
-1. Information We Collect
+TABLE OF CONTENTS
 
-We collect only the minimum data necessary to provide the App's functionality, improve its performance, and ensure user safety. Data collection is primarily local to your device, with limited transmission to third-party services for specific purposes. We categorize the collected information as follows:
+1.  Parties and Scope of Application
+2.  Key Definitions and Terms
+3.  Principles of Personal Data Processing
+4.  Categories of Data Collected and Legal Bases
+5.  Technical Methods of Analysis and Security
+6.  Android Permissions and Their Purpose
+7.  Artificial Intelligence Integration
+8.  Advertising and Partner Services
+9.  Disclosure of Data to Third Parties
+10. Data Storage, Protection and Security
+11. User Rights
+12. Policy Regarding Minors
+13. Cross-Border Data Transfers
+14. Updates and Amendments to the Policy
+15. Disclaimer
+16. Governing Law and Dispute Resolution
+17. Contact Information and Feedback
 
-1.1 Device and App Data (Collected Locally)
-- List of Installed Applications:** To scan for potential threats and provide app management features.
-- File Information on the Device:** Limited to metadata (e.g., file names, sizes, and types) during scans; we do not access or collect the contents of your personal files.
-- Scan History:** Records of scans performed, including dates, results, and detected threats.
-- Detected Threats:** Details about identified malware or suspicious items, stored for quarantine and reference.
-- App Settings:** User preferences, such as real-time protection status, auto-scan schedules, notification settings, language choices (English or Russian), and theme options (e.g., dynamic colors via Material You).
-- Device Model and Android Version:** Anonymized for compatibility checks and analytics.
+━━━━━━━━━━━━━
 
-This data is stored securely on your device and is not transmitted to our servers unless explicitly required for synchronization (see Section 1.2).
+SECTION 1. PARTIES AND SCOPE OF APPLICATION
 
-1.2 User Account Data (Optional, via Google Authentication)
-If you choose to sign in with Google for features like settings synchronization and personalization:
-- **Email Address**
-- **User Name**
-- **Profile Photo**
-- **Google ID**
+1.1. This Privacy Policy (hereinafter — the "Policy") is an official and legally binding document defining the procedures for the collection, storage, processing, use, protection, and disclosure of personal data and other information of users of the mobile application "Armaga: Antivirus & Security" (hereinafter — the "Application").
 
-This data is collected only with your explicit consent during the sign-in process and is used solely for the purposes described in Section 2. We do not collect or store passwords or other sensitive authentication details.
+1.2. The personal data controller and Developer of the Application is Individual Entrepreneur Barkov Nikita Sergeevich (hereinafter — the "Developer", "Controller", "We"), duly registered in the Republic of Kazakhstan at: Republic of Kazakhstan, 110000, Kostanay, Sh. Shayakhmetov St. 165.
 
-1.3 Analytics and Crash Reports
-- Error Logs and Crash Data: Via Firebase Crashlytics, including app errors, device model, Android version, and non-personal identifiers.
-- Usage Statistics: Anonymized data on app interactions (e.g., frequency of scans) to improve stability.
+1.3. A User (hereinafter — the "User", "You") means any individual who:
+   a) downloaded, installed, or launched the Application on any compatible mobile device running the Android operating system;
+   b) accesses any features, services, or materials of the Application;
+   c) registered or signed in to the Application using a Google account;
+   d) otherwise interacts with the Application, its interface, or infrastructure.
 
-We do not link this data to individual users unless necessary for debugging.
+1.4. This Policy applies to:
+   — all versions of the Application published on the Google Play Store or other application marketplaces;
+   — all functional modules of the Application, including the antivirus engine, app analysis module, AI Assistant, advertising module, and signature database update module;
+   — all forms of User interaction with the Application, including offline use.
 
-1.4 Advertising Data (In Free Version)
-- Advertising ID (AD_ID):** Used by Google AdMob to deliver personalized ads.
-- Ad Interaction Data:** Information about ad views and clicks, anonymized where possible.
+1.5. This Policy was developed in compliance with:
+   — the Law of the Republic of Kazakhstan dated May 21, 2013, No. 94-V "On Personal Data and Their Protection", as amended;
+   — the Law of the Republic of Kazakhstan dated November 24, 2015, No. 418-V "On Informatization";
+   — EU Regulation 2016/679 (GDPR) — to the extent applicable to residents of the European Economic Area;
+   — the Google Play Developer Policy Center, including requirements for privacy disclosures;
+   — the OECD Guidelines Governing the Protection of Privacy and Transborder Flows of Personal Data.
 
-This applies only to the free version of the App; the Premium version is ad-free.
+1.6. Installing and using the Application constitutes the User's full, unconditional, and informed consent to all terms of this Policy. If the User does not agree with any provision of this Policy, they must immediately cease using the Application and uninstall it from their device.
 
-1.5 Data We Do Not Collect
-We explicitly do not collect:
-- Personal files or their contents.
-- Contacts, SMS messages, or call logs.
-- Geolocation data.
-- Passwords, banking information, or other financial details.
-- Network traffic content (though we monitor for suspicious activity patterns).
-- Any data from children under 13 years of age (the App is not intended for children).
+━━━━━━━━━━━━━
 
-We do not use cookies or similar tracking technologies outside of the integrated third-party services.
+SECTION 2. KEY DEFINITIONS AND TERMS
 
-2. How We Use Your Information
+For the purposes of this Policy, the following terms shall have the meanings set out below:
 
-We use the collected data solely to operate, maintain, and enhance the App's features. Specific uses include:
+2.1. "Personal Data" — any information relating to a directly or indirectly identified or identifiable natural person (data subject), including identifiers, network data, and other details that may be used to establish the identity of a specific individual.
 
-- Providing Core Functionality: Scanning devices for threats using signature-based, heuristic, AI-driven, and Google Play Protect integration; real-time monitoring; quarantine management; and app permission reviews.
-- Personalization and Synchronization: If you sign in with Google, we use your account data to sync settings across devices and provide tailored AI-assistant responses.
-- Improving the App: Analyzing crash reports and anonymized usage data to fix bugs, enhance stability, and develop new features.
-- Security and Threat Detection: Processing device and file metadata to identify and isolate malware, with automatic daily scans and virus signature updates.
-- Notifications and Alerts: Sending push notifications for threat detections, scan completions, updates, and protection status (with your permission).
-- Advertising: In the free version, using Advertising ID to show relevant ads via AdMob; we do not share personal data with advertisers.
-- Compliance and Legal Purposes: To comply with applicable laws, respond to legal requests, or protect our rights and users' safety.
+2.2. "Processing of Personal Data" — any operation or set of operations performed on personal data, including collection, recording, organization, accumulation, storage, updating, retrieval, use, transfer, anonymization, blocking, deletion, or destruction.
 
-We do not use your data for marketing purposes beyond in-app ads, and we do not sell, rent, or share your personal information with third parties for their own marketing.
+2.3. "Personal Data Controller" ("Controller") — a person who, independently or jointly with others, organizes and carries out the processing of personal data and determines the purposes and scope of such processing. In the context of this Policy — Individual Entrepreneur Barkov Nikita Sergeevich.
 
-3. Sharing and Disclosure of Information
+2.4. "Data Subject" — a natural person whose personal data is processed by the Controller. In the context of this Policy — the User of the Application.
 
-We share data only in limited circumstances:
+2.5. "Third Party" — any legal entity or natural person that is neither the Controller nor the data subject, to whom personal data may be transferred in the cases established by this Policy.
 
-3.1 Third-Party Services
-We integrate with the following services, each governed by their own privacy policies:
-- Google Firebase (Authentication and Crashlytics): For user sign-in and error reporting. Google's Privacy Policy: [https://policies.google.com/privacy](https://policies.google.com/privacy).
-- Google AdMob: For advertising in the free version. Google's Privacy Policy applies.
-- Google Play Protect: For enhanced threat detection; data shared is limited to app scans and follows Google's policies.
+2.6. "Advertising ID" (Google Advertising ID, GAID) — a resettable user identifier for advertising purposes, provided by the Google Android platform. The User may reset or disable it at any time in device settings.
 
-These services may collect and process data independently. We encourage you to review their policies.
+2.7. "Local Data Processing" — the processing of data exclusively on the User's device, without transmitting any information to remote servers.
 
-3.2 Other Disclosures
-- Service Providers: We may share anonymized data with trusted vendors for hosting, analytics, or maintenance, under strict confidentiality agreements.
-- Legal Requirements: If required by law, subpoena, or government request, or to prevent harm, fraud, or illegal activity.
-- Business Transfers: In the event of a merger, acquisition, or sale of assets, your data may be transferred, with notice provided where possible.
+2.8. "Hash" — the output of a cryptographic hash function (MD5, SHA-1, SHA-256, etc.) applied to a file, representing a unique fixed-length numeric identifier. A hash function is one-directional: it is technically impossible to reconstruct the original file content from its hash.
 
-We do not share data with third parties for purposes unrelated to the App's operation.
+2.9. "APK" (Android Package Kit) — the standard installation package format for the Android operating system.
 
-4. Data Storage and Retention
+2.10. "Signature Database" — a structured database containing hashes and other identifiers of known malicious software, used for comparative analysis. Hosted in the Developer's repository and updated periodically.
 
-4.1 Local Storage
-Most data is stored on your device:
-- Using Room Database (SQLite) for scan history, threats, quarantine, and settings.
-- SharedPreferences for preferences like language and auto-scan times.
-- Internal storage for quarantined files and virus signatures (encrypted where applicable).
+2.11. "Heuristic Analysis" — a method of detecting potentially malicious software based on analysis of behavioral patterns, the structure of requested permissions, and other characteristics typical of malware, without relying solely on known signatures.
 
-Quarantined files are automatically cleared every 7 days, unless manually restored or deleted.
+2.12. "ML Model" (Machine Learning model / neural network) — a mathematical model trained on a dataset to identify patterns and classify threats. Operates locally within the Application, without transmitting user data.
 
-4.2 Cloud Storage
-- Google Firebase stores authentication data and crash logs securely.
-- We retain data only as long as necessary for the purposes outlined, or until you request deletion.
+2.13. "Zero-Day Threat" — malicious software or a vulnerability for which no known signature or official patch exists at the time of discovery.
 
-Upon app uninstallation, all local data is deleted. Cloud data linked to your Google account persists until you revoke access or delete your account.
+2.14. "AI Assistant" — an intelligent assistant integrated into the Application, based on an external large language model (LLM), available to authenticated Users for security-related consultations.
 
-5. Data Security
+2.15. "Subscription" — a paid plan providing access to extended Application features, processed through Google Play Billing.
 
-We prioritize the security of your information:
-- Encryption: Local data is encrypted using device-level security features.
-- Secure Authentication: Via Google Credential Manager.
-- Isolated Quarantine: Threats are stored in a secure, inaccessible folder.
-- Regular Updates: Virus signatures are updated daily over secure connections.
-- Code Obfuscation: ProGuard is used in release builds to protect against reverse engineering.
-- Access Controls: Permissions are requested only when necessary (see Section 6 for details).
+2.16. "User Consent" — a freely given, specific, informed, and unambiguous expression of the User's agreement to the processing of their personal data.
 
-Despite these measures, no system is completely secure. We cannot guarantee absolute protection against unauthorized access.
+2.17. "Google Services" — cloud services provided by Google LLC used by the Developer to power the Application's infrastructure (including, but not limited to: Firebase Authentication, Google Cloud Platform, Google Play Console). Data processing within these services is governed by Google's privacy policy.
 
-6. Permissions and Access
+2.18. "Whitelist" — a user-managed list of applications manually excluded by the User from antivirus alerts within the Application.
 
-The App requires certain permissions to function:
-- Mandatory: INTERNET (for updates), storage access (for scans), app querying, notifications, and foreground services.
-- Optional: Accessibility for overlay detection, system alerts, and VPN binding for network monitoring.
+2.19. "Sandbox" (isolated environment) — a mechanism of the Android operating system that isolates the Application's internal storage from other installed applications. Data within the Sandbox is inaccessible to third-party applications through OS means.
 
-We request permissions transparently and use them only for stated purposes. You can manage permissions via Android settings.
+━━━━━━━━━━━━━
 
-## 7. Your Rights and Choices
+SECTION 3. PRINCIPLES OF PERSONAL DATA PROCESSING
 
-You have control over your data:
-- Access and Export: View and export scan history and statistics as a .txt file via the App.
-- Deletion: Clear scan history, quarantine, or all local data in settings. For Google-linked data, revoke access in your Google account settings; this deletes synced data.
-- Opt-Outs: Disable Google sign-in, ads personalization (via device settings), or notifications.
-- Account Deletion: Uninstalling the App or revoking Google access removes associated data.
-- Do Not Sell My Personal Information: We do not sell data, but California residents (under CCPA) can opt-out of any potential sales.
-- GDPR Rights (if applicable): EU/EEA users have rights to access, rectify, erase, restrict, or port data, and object to processing.
+3.1. The Developer processes Users' personal data in strict accordance with the following fundamental principles:
 
-To exercise these rights, contact us (see Section 9). We respond within 30 days.
+3.1.1. Lawfulness and Fairness.
+Personal data is processed exclusively on lawful grounds: with the consent of the data subject, in performance of a contract, or on other grounds provided by applicable law.
 
-8. Children's Privacy
+3.1.2. Purpose Limitation.
+Personal data is collected only for specific, explicit, and legitimate purposes. Further processing in a manner incompatible with the original purposes is not permitted. An exhaustive list of purposes is described in this Policy.
 
-The App is not intended for children under 13. We do not knowingly collect data from children. If we learn of such collection, we will delete it promptly.
+3.1.3. Data Minimisation.
+The scope of personal data processed is limited to the minimum necessary to achieve the stated purposes. The only personal data the Developer receives directly from the User is an email address upon authentication. No other personal data is transmitted to the Developer.
 
-9. International Data Transfers
+3.1.4. Accuracy.
+The Developer takes reasonable measures to ensure that stored data is accurate and up to date.
 
-Data may be processed in countries outside your jurisdiction, including the US (via Google services). We ensure adequate safeguards, such as standard contractual clauses.
+3.1.5. Storage Limitation.
+Personal data is retained no longer than necessary to achieve the processing purposes or as required by applicable law.
 
-10. Changes to This Privacy Policy
+3.1.6. Integrity and Confidentiality.
+Personal data is processed with appropriate technical and organizational security measures to protect against unauthorized access, loss, alteration, or disclosure.
 
-We may update this Policy to reflect changes in practices or laws. Updates will be posted in the App or via notification, with the effective date revised. Continued use constitutes acceptance. For material changes, we may provide prominent notice.
+3.1.7. Privacy by Default.
+Data processing settings are configured by default to maximize privacy protection. The Application does not activate data-transmitting features without explicit necessity and without the User's knowledge.
 
-11. Contact Information
+3.1.8. Privacy by Design.
+Privacy protection is built into the Application's architecture from the design stage. Prioritizing local on-device data processing over any external data transmission is a core architectural decision.
 
-For questions, requests, or complaints:
-- Email: tidesluck@icloud.com
-- Developer: Individual Entrepreneur Barkov Nikita Sergeevich (ИП Барков Никита Сергеевич)
+3.1.9. Transparency.
+This Policy is published openly. The Developer commits to clearly and accessibly informing Users about what data is collected, for what purpose, and how it is processed.
 
-We aim to respond within 24-48 hours, in English or Russian.
+3.2. The Developer never sells Users' personal data to third parties for commercial purposes. The Developer also does not transmit data about scans, files, installed applications, or the User's device to anyone — including for analytics or Application improvement purposes. Application development is carried out by the Developer independently using publicly available data.
+
+━━━━━━━━━━━━━
+
+SECTION 4. CATEGORIES OF DATA COLLECTED AND LEGAL BASES
+
+4.1. Classification of Processed Data
+
+The Application works with two fundamentally different categories of data, clearly distinguished by the system's architecture:
+
+CATEGORY A: Data transmitted through Google infrastructure ("External Data")
+CATEGORY B: Data processed exclusively locally on the User's device ("Local Data")
+
+The key distinction: Category A data is transmitted through Google's secure services and governed by both this Policy and Google's privacy policy. Category B data never leaves the User's device under any circumstances whatsoever.
+
+━━━━━━━━━━━━━
+
+4.2. CATEGORY A: Data Transmitted Through Google Infrastructure
+
+4.2.1. Email Address (E-mail)
+
+   When collected:
+   Exclusively upon the User's voluntary authentication using a Google account ("Sign in with Google" feature). Authentication is entirely optional and is only required to access the AI Assistant and subscription features. Unauthenticated Users have full access to all antivirus features of the Application.
+
+   Scope of data:
+   Only the email address associated with the Google account. No other Google profile data (name, surname, profile photo, contact list, Google Drive or Gmail content, search history, geolocation data, phone number) is requested, received, or stored.
+
+   Where stored:
+   The User's email is stored exclusively within Google's service infrastructure (Firebase Authentication, Google Cloud Platform) used by the Developer. The Developer does not own or operate independent servers for storing personal data. Storage is governed by Google's terms of use and privacy policy.
+
+   Purposes of processing:
+   — Identifying the User as an authenticated subject;
+   — Verifying subscription status and validity;
+   — Managing AI Assistant query limits;
+   — Providing access to features requiring authentication;
+   — Sending important technical notifications related to account security or critical Application changes (no marketing communications are sent without the User's separate explicit consent).
+
+   Legal basis:
+   — Consent of the data subject, expressed through an explicit action — pressing the "Sign in with Google" button, in accordance with Article 8 of the RK Law "On Personal Data and Their Protection";
+   — Performance of a contract (provision of subscription-based features).
+
+   Retention period:
+   Data is stored in Google services for the duration of the User's active account. After account deletion at the User's request, data is deleted in accordance with Google's data retention and deletion policy.
+
+4.2.2. Technical Data from AI Assistant Queries
+
+   When collected:
+   When the AI Assistant feature is actively used — exclusively at the moment the User submits a text query.
+
+   Scope of data:
+   — Text of the query entered by the User in the AI Assistant interface;
+   — System request metadata required for technical processing (timestamp, Application version).
+
+   Important restriction: The AI Assistant is fundamentally isolated from the device's file system. The content of files, photos, documents, correspondence, contacts, passwords, and other confidential User data is never transmitted to the AI Assistant. When executing device commands, the AI receives exclusively aggregated, anonymized technical responses — such as "no threats detected" or "databases updated" — but never specific file names, their content, or personal User information.
+
+   Purposes of processing:
+   — Generating a relevant response to the User's query;
+   — Executing commands predefined in the Application (database updates, scan initiation, etc.) — exclusively at the User's initiative;
+   — Maintaining conversational context within the current session.
+
+   Legal basis: User consent; performance of service contract.
+
+4.2.3. Technical Data Arising from Signature Database Updates
+
+   When it arises:
+   During automatic or manual updates of the threat hash database from the Developer's repository on GitHub.
+
+   Scope of data:
+   Any network request technically and inevitably transmits: the device's IP address, date and time of the request, the version of the requested file, and the Android OS version. This data is processed by GitHub within standard server logs. The Developer does not store, analyze, or use this data.
+
+   Purpose: ensuring up-to-date antivirus databases. A single update typically amounts to less than 200 KB.
+
+   Legal basis: The Developer's legitimate interest in ensuring the functionality and security of the Application.
+
+━━━━━━━━━━━━━
+
+4.3. CATEGORY B: Data Processed Exclusively Locally
+
+The following categories of data are analyzed exclusively by software code running on the User's device. Data in this category is never transmitted — under any circumstances and in any volume — to the Developer, to third parties, or to any external systems. The Developer does not and cannot have any technical means of accessing data in this category.
+
+4.3.1. File Hashes and Identifiers
+
+   — Cryptographic hashes of files (MD5, SHA-1, SHA-256, and other algorithms) from the device's file system;
+   — Purpose: comparison with the local signature database to identify known malware;
+   — The content of files, their names, and paths are not read, processed, or stored — only their hashes.
+
+4.3.2. Metadata of Installed and Pre-Installed Applications
+
+   — Application package names;
+   — Application versions and installation dates;
+   — The list of permissions requested by each application (type and quantity);
+   — Purpose: heuristic analysis of permission excess, identification of applications with potentially dangerous permission combinations, compilation of the installed applications list for User awareness.
+
+4.3.3. Structural Characteristics of Analyzed APK Files
+
+   — Structural signatures (not source code, not content) of analyzed APKs;
+   — Purpose: ML analysis and heuristic threat detection, including Zero-Day malware, Spyware, and Adware.
+
+4.3.4. Application Activity Data (for Real-Time Adware Detection)
+
+   — Information about application activity necessary to identify the source of aggressive advertising overlays;
+   — Purpose: detection of Adware that causes intrusive advertisements regardless of whether the adware application is actively running.
+
+4.3.5. Scan History
+
+   — Results of completed security scans (date, scan type, status, outcome);
+   — Stored in the Application's local database (Sandbox) on the User's device;
+   — Accessible exclusively to the User through the Application interface; the Developer has no access to this data.
+
+━━━━━━━━━━━━━
+
+SECTION 5. TECHNICAL METHODS OF ANALYSIS AND SECURITY
+
+5.1. General Architecture
+
+The Armaga Application implements a multi-layered threat detection architecture combining classical and modern analysis methods. All methods described below are implemented with a priority on local processing: user data does not leave the device at any stage of analysis.
+
+The composition of algorithms used, the number of code models, and their operational logic may change as the Application evolves. The introduction of new scanning methods does not necessarily require an update to this Policy, provided it does not result in an expansion of the personal data collected.
+
+5.2. Layer 1: Signature-Based Analysis
+
+5.2.1. How it works. The Application engine computes file hashes from the device's file system and compares them against a local database of known threat hashes. A hash match indicates the presence of a known malicious object.
+
+5.2.2. Database updates. Signature databases are downloaded from the Developer's secured repository on GitHub via HTTPS and updated automatically when an internet connection is available (if the Application is running in 24/7 mode) or manually upon User request. The Developer strongly recommends regularly updating signature databases and installing Application updates as soon as they become available in the app store.
+
+5.2.3. Scope of application. Signature analysis is applied to APK files in accessible device directories, files in external storage, and components of installed applications — subject to the relevant permissions being granted.
+
+5.3. Layer 2: Heuristic Analysis
+
+5.3.1. How it works. The heuristic analyzer assesses the potential threat level of applications based on algorithms designed by the Developer, primarily through analysis of the quantity and types of permissions requested by an application and their correspondence to the application's declared functionality.
+
+5.3.2. Indicators of potential danger may include:
+   — Requests for an excessive number of privileged permissions not justified by the application's functionality;
+   — Permission combinations characteristic of spyware or adware;
+   — Other behavioral patterns as determined by the Application's algorithms.
+
+5.3.3. Based on the analysis results, the Application informs the User about potential risks, leaving the final decision entirely to the User.
+
+5.4. Layer 3: ML Analysis (Neural Network)
+
+5.4.1. The Application incorporates a local ML model (neural network) designed to detect threats not covered by signature analysis: Zero-Day malware, Spyware, and Adware.
+
+5.4.2. Model training is carried out by the Developer independently using publicly available data. The trained model is integrated directly into the Application. All inference is performed locally on the User's device — no data for ML analysis is transmitted to external systems.
+
+5.4.3. The composition, quantity, and architecture of ML models may be changed by the Developer without prior notice, provided such changes do not result in the transmission of new categories of personal data.
+
+5.5. Layer 4: Real-Time Background Monitoring ("Silent Mode")
+
+5.5.1. The Application supports a 24/7 background operation mode for continuous monitoring of device activity, aimed at detecting Adware and other malicious behavior in real time.
+
+5.5.2. This mode is designed to minimize impact on device performance and battery consumption. The Application's policy is to avoid burdening the device or degrading its operability.
+
+5.5.3. In 24/7 mode, the Application independently checks for signature database updates. If this mode is not activated, the Developer recommends checking for updates manually.
+
+5.5.4. The User may disable background monitoring at any time through the Application settings. Disabling it does not affect the availability of manual scanning features.
+
+━━━━━━━━━━━━━
+
+SECTION 6. ANDROID PERMISSIONS AND THEIR PURPOSE
+
+6.1. General Provisions
+
+To implement the declared antivirus protection features, the Application may request a number of Android operating system permissions. Each permission is used exclusively for the purpose of ensuring the security of the User's device.
+
+Important: the set of permissions requested may change across different versions of the Application depending on the addition, modification, or removal of features. The current list of permissions is always reflected in the Android interface upon installation or update, as well as on the Application's page in the Google Play Store. The Developer does not request permissions that are not functionally necessary.
+
+The User may deny any permission. Denial preserves the Application's general operability but limits the depth and scope of available protection features.
+
+6.2. Current List of Permissions and Justification
+
+6.2.1. MANAGE_EXTERNAL_STORAGE
+   (Manage all files in storage)
+
+   Google Play classification: high-risk permission.
+
+   Justification: This permission is standard and necessary for any antivirus application. Without it, the Application cannot scan the device's external storage (SD card, "Downloads", "Documents" folders), creating blind spots for malicious APK files.
+
+   Specific purposes:
+   — Searching external storage for APK files to scan;
+   — Computing file hashes and comparing them against the signature database.
+
+   What the Application does NOT do with this permission:
+   — Does not read, copy, display, or transmit the content of user files (photos, documents, videos, audio, etc.);
+   — Does not transmit file names or paths outside the device.
+
+6.2.2. QUERY_ALL_PACKAGES
+   (Query information about all installed packages)
+
+   Justification: On Android 11 and above, without this permission the Application can only see a limited list of applications, making a comprehensive security audit impossible.
+
+   Specific purposes:
+   — Compiling a complete list of installed and pre-installed applications for display to the User and for analysis;
+   — Retrieving metadata (version, permissions) for heuristic and ML analysis.
+
+6.2.3. BIND_ACCESSIBILITY_SERVICE
+   (Accessibility Service — Accessibility API)
+
+   Google Play classification: high-risk permission.
+
+   Justification: Phishing overlays and aggressive advertising windows are implemented through Android's system overlay mechanisms. Real-time detection and blocking requires access to the Accessibility API. This permission is activated exclusively with the User's explicit consent and may be disabled in the Application settings at any time.
+
+   Specific purposes:
+   — Detecting unauthorized overlays on top of the screen (phishing, fraudulent interfaces);
+   — Identifying and blocking aggressive advertising pop-ups.
+
+   What the Application STRICTLY does NOT do with this permission:
+   — Does not read text messages, SMS, or messenger correspondence;
+   — Does not intercept passwords, PINs, or payment card data;
+   — Does not record screen content;
+   — Does not collect any personal User data.
+
+   Compliance declaration: The use of the Accessibility API in the Application fully complies with Google Play policy requirements — the permission is used exclusively for the purpose of device security and does not serve surveillance purposes.
+
+6.2.4. SYSTEM_ALERT_WINDOW
+   (Display over other applications)
+
+   Justification: When an active threat is detected, the Application must immediately notify the User regardless of which application is currently open.
+
+   Specific purposes:
+   — Displaying critical security warnings over other windows.
+
+6.2.5. PACKAGE_USAGE_STATS
+   (App usage statistics)
+
+   Justification: Aggressive adware frequently activates at the moment of app launch or switching. Correlating advertising events with specific applications requires access to usage statistics.
+
+   Specific purposes:
+   — Identifying the source of aggressive advertising overlays;
+   — Generating a report on potentially dangerous applications for the User.
+
+6.2.6. REQUEST_DELETE_PACKAGES
+   (Initiate package deletion)
+
+   Justification: After detecting a malicious application, the User must be provided with a convenient mechanism to remove it directly from the Armaga interface.
+
+   Specific purposes:
+   — Launching the standard Android system dialog for deletion of the selected application.
+
+   Limitation: The Application cannot delete packages automatically without the User's explicit confirmation through the standard Android operating system dialog.
+
+6.2.7. Other Permissions
+
+   Depending on the Application version, other technically necessary permissions may be requested (for example, permissions for background service operation, internet access, etc.). The complete and current list of permissions is always available on the Application's page in the Google Play Store and in the Android device system settings. All requested permissions are exclusively dictated by functional necessity to protect the User's device.
+
+━━━━━━━━━━━━━
+
+SECTION 7. ARTIFICIAL INTELLIGENCE INTEGRATION
+
+7.1. General Description
+
+An AI Assistant is integrated into the Application — a security consultant for the device with a number of built-in Application control commands. As of the effective date of this Policy, the language model in use is ChatGPT (developed by OpenAI, LLC, USA) via the official OpenAI API. The Developer reserves the right to change the language model or its version at any time, provided such a change does not result in an expansion of the personal data transmitted.
+
+7.2. How It Works and Architecture
+
+7.2.1. The AI Assistant functions as an external consultant. The User's text query is transmitted to the AI provider's servers (OpenAI or another provider active at the time of the request) via a secure HTTPS channel. The response is returned to the User in the Application interface.
+
+7.2.2. The AI Assistant operates on its own developer-provider's servers (OpenAI or another provider). The Application Developer does not operate its own servers for processing AI queries.
+
+7.2.3. The processing of queries on the AI provider's servers is governed by the relevant provider's privacy policy. For OpenAI, the current policy is available at: https://openai.com/privacy.
+
+7.3. AI Information Isolation Principle
+
+7.3.1. The AI Assistant is completely isolated from the User's personal data. This is due both to the Developer's architectural decision and to the fundamental limitations of the Android platform on transmitting personal information to third-party services.
+
+7.3.2. The AI Assistant never receives:
+   — The content of files on the device;
+   — File names or paths;
+   — Personal correspondence, photos, or contacts;
+   — Passwords, PINs, or other credentials;
+   — Any other personal User data.
+
+7.3.3. When executing commands (e.g., "run a scan", "update databases"), the AI receives from the Application exclusively an aggregated technical response (for example: "no threats detected", "databases updated"), but never specific file names, their content, or personal User information.
+
+7.4. Autonomy and Control
+
+7.4.1. The AI Assistant has no direct access to the device's system APIs. It cannot independently initiate scans, delete files, or change device settings.
+
+7.4.2. All actions proposed by the AI Assistant are executed through predefined internal Application commands exclusively at the User's explicit request and confirmation. The AI serves as a consultant and assistant, not as an autonomous device management agent.
+
+7.5. AI Assistant Availability
+
+7.5.1. Access to the AI Assistant is available exclusively to authenticated Users. Authentication is currently carried out through a Google account; additional authentication methods may be added in the future.
+
+7.5.2. An authenticated User is provided with a limited number of AI Assistant queries free of charge. The limit is increased or removed with an active subscription.
+
+7.6. Data and OpenAI
+
+7.6.1. The Developer does not use User query texts to train or fine-tune any AI models.
+
+7.6.2. OpenAI's data usage policy for API interactions is available at: https://openai.com/policies/api-data-usage-policies.
+
+━━━━━━━━━━━━━
+
+SECTION 8. ADVERTISING AND PARTNER SERVICES
+
+8.1. Google AdMob Advertising SDK
+
+8.1.1. The Armaga Application is free. Monetization is achieved through the display of advertising provided by the Google AdMob advertising platform (Google LLC, USA). Built-in advertising allows the Developer to develop and distribute the Application free of charge to Users.
+
+8.1.2. Google AdMob is an independent data controller. During the display of advertising, AdMob may independently and automatically collect and process the following data in accordance with its own privacy policy, independently of the Developer:
+   — Android Advertising ID (Google Advertising ID / GAID);
+   — Device IP address (used to determine approximate location at the city or regional level);
+   — Device technical characteristics (model, OS version, interface language);
+   — Data about interactions with advertisements (views, clicks, interaction time).
+
+8.1.3. The Developer does not have access to data collected by AdMob and does not control its processing. This data is processed by Google exclusively in accordance with Google's privacy policy: https://policies.google.com/privacy.
+
+8.1.4. Advertising management. The User may at any time:
+   — Restrict the use of advertising identifiers or reset them in Android system settings: "Settings" → "Google" → "Ads";
+   — Opt out of ad personalization in the same settings;
+   — Manage Google ad settings at: https://adssettings.google.com.
+
+8.1.5. Users with an active subscription are exempt from AdMob advertising display.
+
+8.2. Signature Database Storage — GitHub
+
+8.2.1. For the storage and distribution of signature databases, the Developer uses a repository on the GitHub platform (GitHub, Inc., a subsidiary of Microsoft Corporation). The repository is secured; access by third parties is excluded.
+
+8.2.2. When downloading updates, a standard HTTPS request is sent to GitHub's servers. Within standard server logs, GitHub processes technically unavoidable data: the device's IP address, date and time of the request, version of the requested file, and User-Agent. This data is processed by GitHub in accordance with its privacy policy: https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement.
+
+8.2.3. The Developer does not store or use data processed by GitHub within server logs.
+
+8.3. Google Infrastructure (Firebase, Google Cloud, Google Play Console)
+
+8.3.1. The Developer uses Google services (including, but not limited to Firebase Authentication, Google Cloud Platform, Google Play Console) to power the Application's infrastructure, including for storing authentication data (email) and managing subscriptions.
+
+8.3.2. The Developer does not operate independent servers. All server-side processing of User data is performed exclusively through Google's infrastructure in accordance with Google's terms of use and privacy policy.
+
+8.4. Google Play Billing (Subscription Payment)
+
+8.4.1. Processing of payment transactions for subscription purchases is performed exclusively through Google Play Billing (Google LLC). The Developer does not receive or store bank card or other payment instrument data from the User.
+
+8.4.2. The Developer receives from Google exclusively a subscription status confirmation (active / inactive) and the associated email, which are necessary to activate access to paid features.
+
+8.5. Google Sign-In (Authentication)
+
+8.5.1. Authentication is implemented using the official Google Sign-In SDK. The Application requests the minimum necessary scope: exclusively the email address. No extended access scopes to Google account data are requested.
+
+━━━━━━━━━━━━━
+
+SECTION 9. DISCLOSURE OF DATA TO THIRD PARTIES
+
+9.1. Prohibition on Data Sales.
+The Developer expressly declares that it does not sell, lease, exchange, or disclose Users' personal data (email) to any third-party companies for marketing or other commercial purposes. This provision is a fundamental and unconditional principle of the Developer.
+
+9.2. Zero Transmission of Scan Data.
+The Developer does not transmit data about scans, files, installed applications, the device, or User behavior to anyone — including for analytics, Application improvement, or other internal purposes. All such data remains exclusively on the User's device.
+
+9.3. Technical Data Transmission.
+Personal data (email) is processed through the infrastructure of the following trusted partners exclusively within the scope of their services:
+
+   Partner: Google LLC
+   Data: E-mail (authentication, subscription), Advertising ID (AdMob)
+   Basis: Authentication, payment features, advertising
+   Policy: https://policies.google.com/privacy
+
+   Partner: OpenAI, L.L.C. (or current AI provider)
+   Data: User's text queries to the AI Assistant
+   Basis: AI Assistant response generation
+   Policy: https://openai.com/privacy
+
+   Partner: GitHub, Inc.
+   Data: Technical request parameters during database updates
+   Basis: Distribution of signature database updates
+   Policy: https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement
+
+9.4. Mandatory Disclosure Under Law.
+The Developer may disclose personal data pursuant to an official and justified request from authorized government authorities (judicial or law enforcement), submitted in accordance with the procedures established by the legislation of the Republic of Kazakhstan. Only the minimum necessary volume of data is disclosed in such cases.
+
+9.5. Protection of Legal Rights.
+The Developer may disclose the minimum necessary data to protect its legal rights and interests in the course of judicial or other lawful proceedings.
+
+━━━━━━━━━━━━━
+
+SECTION 10. DATA STORAGE, PROTECTION AND SECURITY
+
+10.1. Data Storage Location
+
+10.1.1. All Category B data (analysis results, scan history, application metadata) is stored exclusively in the Application's secured internal storage (Sandbox) on the User's device. This data is inaccessible to other applications through Android OS mechanisms (unless the device has been rooted) and is completely inaccessible to the Developer.
+
+10.1.2. Category A data (email) is stored exclusively within Google's infrastructure (Firebase Authentication, Google Cloud Platform). The Developer does not operate independent personal data storage servers.
+
+10.2. Technical Security Measures
+
+10.2.1. Encryption in transit.
+All network interactions of the Application (authentication, AI queries, signature update downloads, subscription verification) are performed exclusively via the encrypted HTTPS/TLS protocol, preventing data interception by third parties.
+
+10.2.2. Local data protection.
+The Application's local database (scan history, settings) is stored in an isolated Sandbox environment, access to which by third-party applications is blocked by the Android operating system.
+
+10.2.3. Application code protection.
+The Developer applies available technical measures to protect the Application's algorithms from unauthorized analysis and compromise, including code obfuscation methods.
+
+10.2.4. Server infrastructure security.
+The security of the server infrastructure is ensured by Google in accordance with the standards and security certifications of Google Cloud Platform.
+
+10.3. Actions in the Event of a Security Breach
+
+In the event of a data security breach capable of posing a significant risk to Users' rights, the Developer will:
+   — immediately take measures to eliminate the threat;
+   — notify affected Users within a reasonable timeframe in the manner determined by applicable law;
+   — where necessary, notify the relevant government authorities in accordance with applicable legal requirements.
+
+10.4. Data Retention Periods
+
+   Data Category:                                  Retention Period:
+   ──────────────────────────────────────────────────────────────────────
+   E-mail (authentication)       For the duration of account activity;
+                                 after deletion — per Google's policy
+   Scan history                  Until the Application is uninstalled
+   (local, Sandbox)
+   AI queries                    Until the end of the current session
+   Database updates (GitHub)     Per GitHub's policy
+   Advertising data (AdMob)      Per Google's policy
+   ──────────────────────────────────────────────────────────────────────
+
+━━━━━━━━━━━━━
+
+SECTION 11. USER RIGHTS
+
+11.1. List of Rights
+
+In accordance with applicable law, the User has the following rights with respect to their personal data:
+
+11.1.1. Right of Access.
+The User may at any time request from the Developer confirmation of whether their personal data is being processed, and obtain information about what data is being processed and how.
+
+11.1.2. Right to Rectification.
+The User may request the correction of inaccurate or outdated personal data processed by the Developer.
+
+11.1.3. Right to Erasure ("Right to be Forgotten").
+The User may at any time request the deletion of their account and associated email. Account deletion results in de-authentication and loss of access to the AI Assistant and subscription features. Data deletion is carried out in accordance with the data deletion policies of the Google services used by the Developer.
+
+11.1.4. Right to Withdraw Consent.
+The User may at any time withdraw their consent to the processing of personal data by deleting their account in the Application settings or by sending a relevant request to the Developer's contact email.
+
+11.1.5. Right to Information.
+The User may receive information about how and where their personal data is stored, to whom it may be transferred, and on what legal basis.
+
+11.1.6. Right to Manage Android Permissions.
+The User may at any time modify permissions granted to the Application through Android system settings: "Settings" → "Apps" → "Armaga" → "Permissions". Revoking permissions does not delete the account but limits Application functionality.
+
+11.1.7. Right to Manage Ad Personalization.
+The User may at any time restrict AdMob ad personalization through Google settings on their device: "Settings" → "Google" → "Ads".
+
+11.1.8. Right to Add Applications to the Whitelist.
+The User may independently add any application to the "whitelist" in the Armaga interface, excluding it from antivirus alerts.
+
+11.1.9. Right to Lodge a Complaint.
+The User may lodge a complaint with the authorized personal data protection authority of the Republic of Kazakhstan, or, for EEA residents, with the relevant data protection supervisory authority.
+
+11.2. Procedure for Exercising Rights
+
+To exercise any of the listed rights, the User submits a request to the email address: tidesluck@icloud.com, specifying:
+   — The email address associated with the Armaga account;
+   — The specific right the User wishes to exercise;
+   — If necessary — additional clarifications.
+
+The Developer processes requests within a reasonable timeframe in accordance with the requirements of applicable law.
+
+━━━━━━━━━━━━━
+
+SECTION 12. POLICY REGARDING MINORS
+
+12.1. The Armaga: Antivirus & Security Application is not intended for children under the age of 13 (and under 16 for users from EU member states in accordance with Article 8 of the GDPR). The Application is not directed at the deliberate collection of personal data from minors.
+
+12.2. Authentication features are available only to persons who have reached the minimum age established by Google for the independent use of Google services. Age verification when using Google Sign-In is carried out by Google in accordance with its own policies.
+
+12.3. If the Developer becomes aware that personal data of a child under 13 has been obtained without verified parental or legal guardian consent, the Developer will immediately take steps to delete such data. Parents and legal guardians may contact: tidesluck@icloud.com.
+
+━━━━━━━━━━━━━
+
+SECTION 13. CROSS-BORDER DATA TRANSFERS
+
+13.1. The activities of the Developer's technical partners (Google LLC, OpenAI, LLC, GitHub, Inc.) involve processing data on servers located in the United States and other countries outside the Republic of Kazakhstan, where data protection standards may differ from those of the Republic of Kazakhstan.
+
+13.2. The Developer selects partners that ensure a high level of data security and comply with international protection standards. The data processing terms for each partner are governed by their respective privacy policies, links to which are provided in Section 9.
+
+13.3. For EEA residents: cross-border transfer of personal data is carried out on the basis of applicable legal instruments in accordance with Chapter V of the GDPR (standard contractual clauses, etc.), implemented by the data processor partners.
+
+13.4. By using the Application and completing authentication, the User expresses informed consent to the cross-border transfer of their email and AI text queries to the extent and under the conditions described in this Policy.
+
+━━━━━━━━━━━━━
+
+SECTION 14. UPDATES AND AMENDMENTS TO THE POLICY
+
+14.1. The Developer reserves the right to amend this Policy at any time. The current version of the Policy is always available on the Application's page in the Google Play Store and/or within the Application interface. The date of the last update is indicated in the document header.
+
+14.2. Material changes (in particular, expansion of the scope of personal data collected or changes to processing purposes) will be communicated to Users via notification in the Application and/or on the Google Play Store page. Authenticated Users may additionally receive notification by email.
+
+14.3. Non-material changes (correction of typographical errors, clarification of wording without change of meaning, updating of contact details) may be made without prior notice.
+
+14.4. Continued use of the Application following publication of an updated version of the Policy constitutes the User's consent to the changes. If the User does not agree with the changes, they may cease using the Application and request deletion of their data in accordance with the procedure set out in Section 11.
+
+14.5. The Developer may, without prior notice, change the composition of scanning algorithms, the architecture and number of ML models, the AI Assistant logic, and add or remove scan types and other features, provided such changes do not result in an expansion of the personal data collected or a change in the purposes of its processing.
+
+━━━━━━━━━━━━━
+
+SECTION 15. DISCLAIMER
+
+15.1. Provided "As Is".
+The Armaga Application is provided on an "as is" basis. The Developer makes every effort to ensure security but does not and cannot provide guarantees of absolute effectiveness.
+
+15.2. No Guarantee of Complete Threat Detection.
+Despite the use of a multi-layered analysis system (signature analysis, heuristics, ML models), the Application does not guarantee 100% detection of all types of malicious software. Threats constantly evolve, and no cybersecurity solution is absolute. The Application applies every technical capability to protect the device in accordance with the implemented algorithms, but a specific result cannot be guaranteed.
+
+15.3. Supplementary and Informational Nature of the Application.
+The Application is a tool for analysis and awareness. It supplements the built-in Android security mechanisms (including Google Play Protect) rather than replacing them. The final decision regarding actions with detected threats always rests with the User. The User bears independent responsibility for adhering to basic digital security practices.
+
+15.4. Limitation of Developer Liability.
+To the maximum extent permitted by applicable law, the Developer shall not be liable for any direct or indirect damages, data loss, or impairment of device functionality arising from:
+   — The actions of malware not detected by the Application due to objective technological limitations;
+   — Unlawful actions of third parties;
+   — The User's revocation of permissions, limiting the Application's protective capabilities;
+   — Actions of partner service providers (Google, OpenAI, GitHub) under their own terms of use.
+
+15.5. Liability for Third-Party Services.
+The Developer shall not be liable for the availability, quality, or privacy policies of partner services (Google AdMob, OpenAI API, GitHub) used in the Application's operation. All claims related to the operation of these services are to be directed to their respective providers.
+
+━━━━━━━━━━━━━
+
+SECTION 16. GOVERNING LAW AND DISPUTE RESOLUTION
+
+16.1. This Policy is governed by and construed in accordance with the legislation of the Republic of Kazakhstan, including the RK Law "On Personal Data and Their Protection", the Civil Code of the Republic of Kazakhstan, and other applicable regulatory acts.
+
+16.2. All disputes shall be resolved first through negotiation. The User submits a claim to: tidesluck@icloud.com. The Developer considers the claim within 30 (thirty) calendar days of receipt.
+
+16.3. In the event that a dispute cannot be resolved through negotiation, it shall be submitted for consideration to a court at the Developer's place of registration — Kostanay, Republic of Kazakhstan — in accordance with the procedural legislation of the Republic of Kazakhstan.
+
+16.4. For EEA Users: in the event of a conflict between this Policy and the GDPR, the provisions of the GDPR shall apply to the extent that they provide a higher level of protection for the rights of the data subject.
+
+━━━━━━━━━━━━━
+
+SECTION 17. CONTACT INFORMATION AND FEEDBACK
+
+17.1. Personal Data Controller:
+
+   Name:           Individual Entrepreneur Barkov Nikita Sergeevich
+   Country:        Republic of Kazakhstan
+   Postal Code:    110000
+   Address:        Kostanay, Sh. Shayakhmetov St. 165
+   E-mail:         tidesluck@icloud.com
+
+17.2. For all questions related to this Privacy Policy, the processing of personal data, the exercise of User rights, and any other questions about privacy and data security in the Application, Users may contact the Developer at the email address indicated above.
+
+17.3. The Developer commits to reviewing the inquiry within a reasonable timeframe and sending a response to the email from which the request was submitted.
+
+━━━━━━━━━━━━━
+
+CLOSING PROVISIONS
+
+This Privacy Policy is drafted in Russian and constitutes the complete and definitive expression of the Developer's intentions regarding the protection of personal data of Users of the Armaga: Antivirus & Security Application.
+
+By installing and using the Application, the User confirms that they:
+   — have read this Privacy Policy in full;
+   — have understood its content and terms;
+   — express full and unconditional agreement with all of its provisions;
+   — confirm that they have reached the age required to independently express consent to the processing of personal data in accordance with applicable law.
+
+━━━━━━━━━━━━━
+
+© 2026 Individual Entrepreneur Barkov Nikita Sergeevich. All rights reserved.
+Application Armaga: Antivirus & Security. Document Version 1.0.433.
