@@ -2,101 +2,651 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Privacy Policy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — Armaga AI App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f4f6f8;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
+      :root {
+        --red: #e72327;
+        --gray: #e6e6e6;
+        --black: #111111;
+        --white: #fafafa;
+        --red-glow: rgba(231,35,39,0.1);
+        --text-muted: #777;
+      }
 
-        header {
-            background: #2c3e50;
-            color: #fff;
-            text-align: center;
-            padding: 30px 20px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-        header h1 {
-            margin: 0;
-            font-size: 2em;
-        }
+      html { scroll-behavior: smooth; }
 
-        main {
-            display: flex;
-            justify-content: center;
-            padding: 40px 20px;
-        }
+      body {
+        font-family: 'DM Sans', sans-serif;
+        background: var(--white);
+        color: var(--black);
+        min-height: 100vh;
+      }
 
-        .text-block {
-            background: #fff;
-            border-radius: 12px;
-            padding: 25px 30px;
-            max-width: 900px;
-            width: 100%;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-            white-space: pre-wrap;
-            overflow-y: auto;
-            max-height: 600px;
-            font-size: 1rem;
-            line-height: 1.6;
-        }
+      /* ── Progress bar ── */
+      #progress-bar {
+        position: fixed;
+        top: 0; left: 0;
+        height: 3px;
+        background: linear-gradient(90deg, var(--red), #ff6b6d);
+        width: 0%;
+        z-index: 1000;
+        transition: width 0.1s linear;
+        box-shadow: 0 0 10px rgba(231,35,39,0.5);
+      }
 
-        .nav-link {
-            display: inline-block;
-            margin-top: 25px;
-            text-decoration: none;
-            background: #3498db;
-            color: #fff;
-            padding: 10px 25px;
-            border-radius: 8px;
-            transition: 0.3s;
-        }
+      /* ── Top nav ── */
+      .topnav {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background: rgba(250,250,250,0.92);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border-bottom: 1px solid var(--gray);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 14px 40px;
+        gap: 20px;
+      }
 
-        .nav-link:hover {
-            background: #2980b9;
-        }
+      .topnav-brand {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1.2rem;
+        letter-spacing: 3px;
+        color: var(--black);
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
 
-        footer {
-            text-align: center;
-            padding: 20px;
-            color: #777;
-            font-size: 0.9rem;
-        }
+      .topnav-brand .dot {
+        width: 8px; height: 8px;
+        background: var(--red);
+        border-radius: 50%;
+        animation: pulse 2s infinite;
+      }
 
-        @media(max-width: 600px){
-            .text-block {
-                padding: 20px;
-                font-size: 0.95rem;
-            }
+      .topnav-switch {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        text-decoration: none;
+        font-size: 0.8rem;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        color: var(--text-muted);
+        transition: color 0.25s;
+        padding: 8px 16px;
+        border: 1px solid var(--gray);
+        border-radius: 2px;
+        transition: all 0.3s;
+      }
+
+      .topnav-switch:hover {
+        color: var(--red);
+        border-color: var(--red);
+        background: var(--red-glow);
+      }
+
+      .topnav-switch svg { width: 14px; height: 14px; stroke: currentColor; }
+
+      /* ── Hero header ── */
+      .hero {
+        position: relative;
+        overflow: hidden;
+        padding: 70px 40px 60px;
+        background: var(--black);
+        color: #fff;
+      }
+
+      .hero::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background:
+          radial-gradient(ellipse at 80% 50%, rgba(231,35,39,0.18) 0%, transparent 60%),
+          repeating-linear-gradient(
+            -45deg,
+            transparent,
+            transparent 30px,
+            rgba(255,255,255,0.015) 30px,
+            rgba(255,255,255,0.015) 31px
+          );
+      }
+
+      .hero-inner {
+        position: relative;
+        max-width: 860px;
+        margin: 0 auto;
+      }
+
+      .hero-label {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 0.72rem;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: var(--red);
+        font-weight: 600;
+        margin-bottom: 20px;
+      }
+
+      .hero-label::before {
+        content: '';
+        display: block;
+        width: 24px; height: 2px;
+        background: var(--red);
+      }
+
+      .hero h1 {
+        font-family: 'Bebas Neue', cursive;
+        font-size: clamp(3rem, 8vw, 5.5rem);
+        letter-spacing: 4px;
+        line-height: 0.95;
+        color: #fff;
+        margin-bottom: 24px;
+      }
+
+      .hero h1 span { color: var(--red); }
+
+      .hero-meta {
+        display: flex;
+        gap: 28px;
+        flex-wrap: wrap;
+      }
+
+      .meta-item {
+        font-size: 0.82rem;
+        color: rgba(255,255,255,0.45);
+        font-weight: 300;
+        letter-spacing: 0.5px;
+      }
+
+      .meta-item strong {
+        display: block;
+        color: rgba(255,255,255,0.85);
+        font-weight: 500;
+        font-size: 0.88rem;
+        margin-bottom: 2px;
+      }
+
+      /* ── Layout ── */
+      .layout {
+        display: flex;
+        max-width: 1100px;
+        margin: 0 auto;
+        gap: 0;
+        padding: 0;
+        min-height: 70vh;
+      }
+
+      /* ── Sidebar ── */
+      .sidebar {
+        width: 260px;
+        flex-shrink: 0;
+        padding: 40px 0 40px 40px;
+        position: sticky;
+        top: 57px;
+        height: calc(100vh - 57px);
+        overflow-y: auto;
+        border-right: 1px solid var(--gray);
+      }
+
+      .sidebar-title {
+        font-size: 0.68rem;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+        color: var(--text-muted);
+        font-weight: 600;
+        margin-bottom: 16px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid var(--gray);
+      }
+
+      #toc { list-style: none; }
+
+      #toc li {
+        margin-bottom: 2px;
+      }
+
+      #toc a {
+        display: block;
+        padding: 7px 12px 7px 10px;
+        font-size: 0.82rem;
+        color: #888;
+        text-decoration: none;
+        border-left: 2px solid transparent;
+        border-radius: 0 2px 2px 0;
+        transition: all 0.25s;
+        line-height: 1.4;
+      }
+
+      #toc a:hover { color: var(--black); border-left-color: var(--gray); background: rgba(0,0,0,0.03); }
+      #toc a.active { color: var(--red); border-left-color: var(--red); background: var(--red-glow); font-weight: 500; }
+
+      /* ── Content area ── */
+      .content-wrap {
+        flex: 1;
+        padding: 50px 50px 60px 50px;
+        min-width: 0;
+      }
+
+      #doc-content {
+        font-size: 0.97rem;
+        line-height: 1.85;
+        color: #333;
+        white-space: pre-wrap;
+        font-weight: 300;
+      }
+
+      /* Section highlighting (injected by JS) */
+      .doc-section { margin-bottom: 2em; }
+
+      .doc-section-title {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1.4rem;
+        letter-spacing: 2px;
+        color: var(--black);
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        scroll-margin-top: 80px;
+      }
+
+      .doc-section-title::before {
+        content: '';
+        display: block;
+        width: 14px; height: 3px;
+        background: var(--red);
+        flex-shrink: 0;
+      }
+
+      .doc-section-body {
+        color: #444;
+        line-height: 1.85;
+        font-weight: 300;
+        font-size: 0.95rem;
+      }
+
+      /* ── Loading state ── */
+      .loading {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        color: var(--text-muted);
+        font-size: 0.9rem;
+        padding: 40px 0;
+      }
+
+      .loading-spinner {
+        width: 20px; height: 20px;
+        border: 2px solid var(--gray);
+        border-top-color: var(--red);
+        border-radius: 50%;
+        animation: spin 0.8s linear infinite;
+      }
+
+      /* ── Toolbar ── */
+      .toolbar {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+      }
+
+      .tool-btn {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        padding: 8px 16px;
+        background: var(--gray);
+        border: none;
+        border-radius: 2px;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 0.78rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        cursor: pointer;
+        color: var(--black);
+        transition: all 0.25s;
+      }
+
+      .tool-btn:hover { background: var(--black); color: #fff; }
+      .tool-btn.active { background: var(--red); color: #fff; }
+      .tool-btn svg { width: 14px; height: 14px; stroke: currentColor; }
+
+      .word-count {
+        margin-left: auto;
+        font-size: 0.78rem;
+        color: var(--text-muted);
+        letter-spacing: 0.5px;
+      }
+
+      /* ── Scroll to top ── */
+      #scroll-top {
+        position: fixed;
+        bottom: 30px; right: 30px;
+        width: 44px; height: 44px;
+        background: var(--red);
+        color: #fff;
+        border: none;
+        border-radius: 2px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transform: translateY(20px);
+        transition: all 0.35s cubic-bezier(.16,1,.3,1);
+        z-index: 200;
+        box-shadow: 0 8px 24px rgba(231,35,39,0.35);
+      }
+
+      #scroll-top.visible { opacity: 1; transform: translateY(0); }
+      #scroll-top:hover { background: var(--red-dark); transform: translateY(-3px); box-shadow: 0 12px 30px rgba(231,35,39,0.4); }
+      #scroll-top svg { width: 18px; height: 18px; stroke: #fff; }
+
+      /* ── Footer ── */
+      footer {
+        border-top: 1px solid var(--gray);
+        padding: 28px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+
+      footer p { font-size: 0.82rem; color: #999; letter-spacing: 0.5px; }
+      footer strong { color: var(--red); font-weight: 600; }
+
+      .footer-links { display: flex; gap: 20px; }
+      .footer-links a {
+        font-size: 0.82rem;
+        color: #999;
+        text-decoration: none;
+        letter-spacing: 0.5px;
+        transition: color 0.25s;
+      }
+      .footer-links a:hover { color: var(--red); }
+
+      /* ── Animations ── */
+      @keyframes pulse {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50%       { opacity: 0.5; transform: scale(1.4); }
+      }
+
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(12px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+
+      .fade-in { animation: fadeIn 0.6s cubic-bezier(.16,1,.3,1) both; }
+
+      /* ── Responsive ── */
+      @media (max-width: 768px) {
+        .topnav { padding: 12px 20px; }
+        .hero { padding: 50px 20px 40px; }
+        .layout { flex-direction: column; }
+        .sidebar {
+          width: 100%;
+          position: static;
+          height: auto;
+          padding: 20px 20px 0;
+          border-right: none;
+          border-bottom: 1px solid var(--gray);
+          overflow: visible;
         }
+        #toc { display: flex; flex-wrap: wrap; gap: 6px; }
+        #toc li { margin: 0; }
+        #toc a {
+          padding: 5px 10px;
+          border: 1px solid var(--gray);
+          border-left: 2px solid transparent;
+          border-radius: 2px;
+          font-size: 0.75rem;
+          white-space: nowrap;
+        }
+        .content-wrap { padding: 30px 20px 40px; }
+        footer { padding: 20px; flex-direction: column; text-align: center; }
+      }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Privacy Policy</h1>
-    </header>
 
-    <main>
-        <div class="text-block" id="content">Загрузка...</div>
-    </main>
+  <div id="progress-bar"></div>
 
-    <div style="text-align:center;">
-        <a class="nav-link" href="about.html">Read Terms of Service</a>
+  <!-- Top Nav -->
+  <nav class="topnav">
+    <a class="topnav-brand" href="home.html">
+      <span class="dot"></span>
+      ARMAGA AI
+    </a>
+    <a class="topnav-switch" href="about.html">
+      <svg fill="none" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z"/></svg>
+      Terms of Service
+    </a>
+  </nav>
+
+  <!-- Hero -->
+  <div class="hero">
+    <div class="hero-inner">
+      <div class="hero-label">Официальный документ</div>
+      <h1>PRIVACY<br><span>POLICY</span></h1>
+      <div class="hero-meta">
+        <div class="meta-item"><strong>Armaga AI App</strong>Приложение</div>
+        <div class="meta-item"><strong>&copy; 2026</strong>Armaga Signatures</div>
+      </div>
     </div>
+  </div>
 
-    <footer>
-        &copy; 2026 Armaga Signatures
-    </footer>
+  <!-- Layout -->
+  <div class="layout">
 
-    <script>
-        fetch('Privacy_Policy.txt')
-            .then(response => response.text())
-            .then(text => document.getElementById('content').textContent = text)
-            .catch(err => document.getElementById('content').textContent = 'Ошибка загрузки файла.');
-    </script>
+    <!-- Sidebar TOC -->
+    <aside class="sidebar">
+      <div class="sidebar-title">Содержание</div>
+      <ul id="toc"><li style="color:#aaa;font-size:0.8rem;padding:8px 0">Загрузка...</li></ul>
+    </aside>
+
+    <!-- Content -->
+    <div class="content-wrap">
+      <div class="toolbar">
+        <button class="tool-btn" id="btn-font-small" onclick="setFont('small')">
+          <svg fill="none" stroke-width="2" viewBox="0 0 24 24"><text x="4" y="17" font-size="10" fill="currentColor" stroke="none" font-family="sans-serif">A</text></svg>
+          Мелкий
+        </button>
+        <button class="tool-btn active" id="btn-font-normal" onclick="setFont('normal')">
+          <svg fill="none" stroke-width="2" viewBox="0 0 24 24"><text x="3" y="18" font-size="13" fill="currentColor" stroke="none" font-family="sans-serif">A</text></svg>
+          Стандарт
+        </button>
+        <button class="tool-btn" id="btn-font-large" onclick="setFont('large')">
+          <svg fill="none" stroke-width="2" viewBox="0 0 24 24"><text x="1" y="19" font-size="16" fill="currentColor" stroke="none" font-family="sans-serif">A</text></svg>
+          Крупный
+        </button>
+        <button class="tool-btn" id="btn-copy" onclick="copyText()">
+          <svg fill="none" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
+          Копировать
+        </button>
+        <span class="word-count" id="word-count"></span>
+      </div>
+
+      <div id="doc-content">
+        <div class="loading">
+          <div class="loading-spinner"></div>
+          Загрузка документа...
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 <strong>Armaga Signatures</strong></p>
+    <div class="footer-links">
+      <a href="home.html">Главная</a>
+      <a href="about.html">Terms of Service</a>
+    </div>
+  </footer>
+
+  <!-- Scroll to top -->
+  <button id="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+    <svg fill="none" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 10.5 12 3m0 0 7.5 7.5M12 3v18"/></svg>
+  </button>
+
+  <script>
+    let rawText = '';
+
+    // ── Load text ──
+    fetch('Privacy_Policy.txt')
+      .then(r => r.text())
+      .then(text => {
+        rawText = text;
+        renderDoc(text);
+        buildTOC();
+        updateWordCount(text);
+      })
+      .catch(() => {
+        document.getElementById('doc-content').innerHTML =
+          '<p style="color:#e72327">⚠ Ошибка загрузки файла Privacy_Policy.txt</p>';
+      });
+
+    // ── Render document with section detection ──
+    function renderDoc(text) {
+      const el = document.getElementById('doc-content');
+      const lines = text.split('\n');
+      let html = '';
+      let sectionIdx = 0;
+      let sectionBuf = [];
+      let currentTitle = '';
+
+      const flushSection = () => {
+        if (!currentTitle && sectionBuf.length === 0) return;
+        const id = 'section-' + sectionIdx++;
+        html += `<div class="doc-section fade-in" id="${id}">`;
+        if (currentTitle) {
+          html += `<div class="doc-section-title">${escHtml(currentTitle)}</div>`;
+        }
+        if (sectionBuf.length) {
+          html += `<div class="doc-section-body">${escHtml(sectionBuf.join('\n'))}</div>`;
+        }
+        html += `</div>`;
+        sectionBuf = [];
+        currentTitle = '';
+      };
+
+      lines.forEach(line => {
+        const trimmed = line.trim();
+        // Detect section headings: ALL CAPS lines or numbered sections
+        if (
+          (trimmed.length > 3 && trimmed === trimmed.toUpperCase() && /[A-ZА-ЯЁ]/.test(trimmed)) ||
+          /^\d+[\.\)]\s+[A-ZА-ЯЁ]/.test(trimmed)
+        ) {
+          flushSection();
+          currentTitle = trimmed;
+        } else {
+          sectionBuf.push(line);
+        }
+      });
+      flushSection();
+
+      el.innerHTML = html || `<div class="doc-section-body">${escHtml(text)}</div>`;
+    }
+
+    function escHtml(str) {
+      return str
+        .replace(/&/g,'&amp;')
+        .replace(/</g,'&lt;')
+        .replace(/>/g,'&gt;');
+    }
+
+    // ── TOC ──
+    function buildTOC() {
+      const toc = document.getElementById('toc');
+      const sections = document.querySelectorAll('.doc-section[id]');
+      if (sections.length === 0) { toc.innerHTML = ''; return; }
+      let items = '';
+      sections.forEach(sec => {
+        const title = sec.querySelector('.doc-section-title');
+        if (!title) return;
+        const text = title.textContent.trim();
+        const short = text.length > 40 ? text.slice(0,38) + '…' : text;
+        items += `<li><a href="#${sec.id}" data-target="${sec.id}">${short}</a></li>`;
+      });
+      toc.innerHTML = items || '<li style="color:#aaa;font-size:0.8rem">Разделы не найдены</li>';
+
+      // Smooth scroll
+      toc.querySelectorAll('a').forEach(a => {
+        a.addEventListener('click', e => {
+          e.preventDefault();
+          document.getElementById(a.dataset.target)?.scrollIntoView({behavior:'smooth',block:'start'});
+        });
+      });
+    }
+
+    // ── Active TOC highlight on scroll ──
+    window.addEventListener('scroll', () => {
+      // Progress bar
+      const scrolled = (window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100;
+      document.getElementById('progress-bar').style.width = scrolled + '%';
+
+      // Scroll-top button
+      const btn = document.getElementById('scroll-top');
+      window.scrollY > 300 ? btn.classList.add('visible') : btn.classList.remove('visible');
+
+      // Active TOC item
+      const sections = document.querySelectorAll('.doc-section[id]');
+      let current = '';
+      sections.forEach(sec => {
+        if (sec.getBoundingClientRect().top < 120) current = sec.id;
+      });
+      document.querySelectorAll('#toc a').forEach(a => {
+        a.classList.toggle('active', a.dataset.target === current);
+      });
+    });
+
+    // ── Font size ──
+    function setFont(size) {
+      const map = { small: '0.85rem', normal: '0.97rem', large: '1.12rem' };
+      document.getElementById('doc-content').style.fontSize = map[size];
+      document.querySelectorAll('.tool-btn[id^=btn-font]').forEach(b => b.classList.remove('active'));
+      document.getElementById('btn-font-' + size).classList.add('active');
+    }
+
+    // ── Copy ──
+    function copyText() {
+      if (!rawText) return;
+      navigator.clipboard.writeText(rawText).then(() => {
+        const btn = document.getElementById('btn-copy');
+        btn.textContent = '✓ Скопировано';
+        btn.classList.add('active');
+        setTimeout(() => {
+          btn.innerHTML = `<svg fill="none" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg> Копировать`;
+          btn.classList.remove('active');
+        }, 2500);
+      });
+    }
+
+    function updateWordCount(text) {
+      const words = text.trim().split(/\s+/).filter(Boolean).length;
+      const minutes = Math.ceil(words / 200);
+      document.getElementById('word-count').textContent = `${words.toLocaleString()} слов · ~${minutes} мин чтения`;
+    }
+  </script>
 </body>
 </html>
