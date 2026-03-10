@@ -2,7 +2,7 @@
 
 <!-- HERO BANNER -->
 
-<img src="image/logo.png" alt="Armaga: Antivirus & Security" width="30%"/><br>
+<img src="image/logo.png" alt="Armaga: Antivirus & Security" width="20%"/>
 
 <br/>
 
